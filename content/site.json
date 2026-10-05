@@ -1,0 +1,36 @@
+{
+  "brand": {
+    "name": "Centsible",
+    "tagline": "Track every dollar, master your day-to-day spending.",
+    "logoUrl": null
+  },
+  "navLinks": [
+    {
+      "key": "home",
+      "href": "/"
+    },
+    {
+      "key": "transactions",
+      "href": "/transactions"
+    },
+    {
+      "key": "budgets",
+      "href": "/budgets"
+    },
+    {
+      "key": "settings",
+      "href": "/settings"
+    }
+  ],
+  "primaryCta": {
+    "key": "primary",
+    "href": "/transactions"
+  },
+  "footerColumns": [],
+  "socialLinks": [],
+  "motion": {
+    "intensity": 3
+  },
+  "navbarVariant": "split",
+  "footerVariant": "columns"
+}

@@ -1,0 +1,615 @@
+{
+  "nav": {
+    "home": "Panel de control",
+    "transactions": "Transacciones",
+    "budgets": "Presupuestos",
+    "settings": "Configuración"
+  },
+  "cta": {
+    "primary": "Agregar gasto"
+  },
+  "footer": {
+    "tagline": "Controla cada dólar, domina tu gasto diario.",
+    "rights": "Todos los derechos reservados."
+  },
+  "settings": {
+    "header": {
+      "title": "Configuración",
+      "subtitle": "Administra tu moneda, categorías y preferencias de notificaciones en Centsible."
+    },
+    "general": {
+      "title": "General",
+      "subtitle": "Elige cómo aparecen las fechas y montos en tu panel de control.",
+      "currencyLabel": "Moneda",
+      "dateFormatLabel": "Formato de fecha",
+      "themeLabel": "Apariencia",
+      "saveButton": "Guardar cambios",
+      "savedMessage": "Guardado",
+      "currencyOptions": [
+        {
+          "value": "USD",
+          "label": "USD - US Dollar ($)"
+        },
+        {
+          "value": "EUR",
+          "label": "EUR - Euro (€)"
+        },
+        {
+          "value": "GBP",
+          "label": "GBP - British Pound (£)"
+        }
+      ],
+      "dateFormatOptions": [
+        {
+          "value": "MM/DD/YYYY",
+          "label": "MM/DD/YYYY"
+        },
+        {
+          "value": "DD/MM/YYYY",
+          "label": "DD/MM/YYYY"
+        },
+        {
+          "value": "YYYY-MM-DD",
+          "label": "YYYY-MM-DD"
+        }
+      ],
+      "themeOptions": [
+        {
+          "value": "system",
+          "label": "Match system"
+        },
+        {
+          "value": "light",
+          "label": "Light"
+        },
+        {
+          "value": "dark",
+          "label": "Dark"
+        }
+      ]
+    },
+    "category": {
+      "title": "Categorías de gastos",
+      "subtitle": "Elige un color para cada categoría para que las transacciones y gráficos sean fáciles de escanear.",
+      "saveButton": "Guardar categorías",
+      "savedMessage": "Guardado",
+      "items": [
+        {
+          "id": "rent",
+          "name": "Rent",
+          "description": "Monthly housing payment",
+          "colorIndex": 3
+        },
+        {
+          "id": "groceries",
+          "name": "Groceries",
+          "description": "Weekly food and household shopping",
+          "colorIndex": 2
+        },
+        {
+          "id": "gym",
+          "name": "Gym",
+          "description": "Membership and fitness classes",
+          "colorIndex": 4
+        },
+        {
+          "id": "dine-in",
+          "name": "Dine In",
+          "description": "Restaurants, cafes, and takeout",
+          "colorIndex": 1
+        },
+        {
+          "id": "savings",
+          "name": "Savings",
+          "description": "Transfers into savings and investments",
+          "colorIndex": 0
+        },
+        {
+          "id": "travel-fuel",
+          "name": "Travel/Fuel",
+          "description": "Gas, rideshares, and trips",
+          "colorIndex": 5
+        }
+      ]
+    },
+    "preferences": {
+      "title": "Notificaciones y datos",
+      "subtitle": "Mantente informado sobre tu gasto y controla cómo se exportan tus datos.",
+      "saveButton": "Guardar preferencias",
+      "savedMessage": "Guardado",
+      "notifications": {
+        "title": "Notificaciones",
+        "items": [
+          {
+            "id": "budget-alerts",
+            "label": "Budget alerts",
+            "description": "Notify me when a category nears its monthly budget"
+          },
+          {
+            "id": "weekly-summary",
+            "label": "Weekly summary email",
+            "description": "A recap of spending sent every Monday"
+          },
+          {
+            "id": "large-transaction",
+            "label": "Large transaction alerts",
+            "description": "Flag any single expense over $200"
+          },
+          {
+            "id": "savings-milestone",
+            "label": "Savings milestones",
+            "description": "Celebrate when a savings goal is reached"
+          }
+        ]
+      },
+      "export": {
+        "title": "Exportar datos",
+        "formatLabel": "Formato de exportación",
+        "autoBackupLabel": "Copia de seguridad automática mensual",
+        "autoBackupDescription": "Recibe un correo con tus transacciones el 1º de cada mes",
+        "exportButton": "Exportar ahora",
+        "successMessage": "Tu exportación está lista y en camino a tu bandeja de entrada.",
+        "formats": [
+          {
+            "value": "csv",
+            "label": "CSV"
+          },
+          {
+            "value": "pdf",
+            "label": "PDF"
+          }
+        ]
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Finanzas personales, simplificadas",
+      "titleLead": "Ve exactamente dónde va tu",
+      "titleHighlight": "salario",
+      "titleTail": "cada mes",
+      "subtitle": "Centsible rastrea alquiler, compras, gimnasio, comidas, viajes y ahorros en un solo lugar, para que los gastos diarios nunca te sorprendan.",
+      "primaryCta": "Abrir panel",
+      "secondaryCta": "Ver transacciones",
+      "snapshotTitle": "Resumen de este mes",
+      "snapshotSubtitle": "Se actualiza automáticamente cuando registras gastos",
+      "totalLabel": "Total gastado hasta ahora",
+      "imageQuery": "pantalla de laptop con panel de finanzas"
+    },
+    "categories": {
+      "eyebrow": "Desglose por categoría",
+      "title": "Seis categorías, una imagen clara",
+      "subtitle": "Rastrea los gastos que más te importan contra el presupuesto que estableciste.",
+      "of": "De",
+      "items": [
+        {
+          "icon": "rent",
+          "name": "Rent",
+          "spent": 1450,
+          "budget": 1450,
+          "status": "On track"
+        },
+        {
+          "icon": "groceries",
+          "name": "Groceries",
+          "spent": 412,
+          "budget": 450,
+          "status": "On track"
+        },
+        {
+          "icon": "gym",
+          "name": "Gym",
+          "spent": 60,
+          "budget": 60,
+          "status": "On track"
+        },
+        {
+          "icon": "dinein",
+          "name": "Dine in",
+          "spent": 268,
+          "budget": 200,
+          "status": "Over budget"
+        },
+        {
+          "icon": "savings",
+          "name": "Savings",
+          "spent": 500,
+          "budget": 500,
+          "status": "Goal met"
+        },
+        {
+          "icon": "travel",
+          "name": "Travel/Fuel",
+          "spent": 145,
+          "budget": 180,
+          "status": "On track"
+        }
+      ]
+    },
+    "trend": {
+      "eyebrow": "Tendencia de gastos",
+      "title": "Seis meses de gastos diarios",
+      "subtitle": "Una vista continua del gasto mensual total en cada categoría, para que veas el patrón, no solo el número.",
+      "latestLabel": "Total del mes más reciente",
+      "monthsLabel": "Meses rastreados",
+      "months": [
+        {
+          "month": "May",
+          "amount": 2460
+        },
+        {
+          "month": "Jun",
+          "amount": 2510
+        },
+        {
+          "month": "Jul",
+          "amount": 2690
+        },
+        {
+          "month": "Aug",
+          "amount": 2580
+        },
+        {
+          "month": "Sep",
+          "amount": 2710
+        },
+        {
+          "month": "Oct",
+          "amount": 2835
+        }
+      ]
+    },
+    "steps": {
+      "eyebrow": "Cómo funciona",
+      "title": "Controla tus gastos en tres pasos",
+      "subtitle": "Sin hojas de cálculo, sin cálculos manuales, solo una vista clara de tu dinero.",
+      "items": [
+        {
+          "title": "Connect your spending",
+          "description": "Log transactions in seconds or import a statement, Centsible sorts everything into categories automatically.",
+          "imageQuery": "mobile banking app transaction"
+        },
+        {
+          "title": "Set category budgets",
+          "description": "Put a monthly ceiling on rent, groceries, gym, dining, travel and savings, then watch the progress bars fill in real time.",
+          "imageQuery": "budget planning chart screen"
+        },
+        {
+          "title": "Spot the leaks early",
+          "description": "Weekly summaries flag the categories creeping over budget before the month ends, so you can adjust before payday.",
+          "imageQuery": "spending alert notification phone"
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Preguntas frecuentes",
+      "title": "Todo lo que necesitas saber",
+      "subtitle": "Respuestas a las preguntas que la gente hace antes de empezar a rastrear con Centsible.",
+      "items": [
+        {
+          "question": "How do I add a new expense?",
+          "answer": "Open the Transactions page and log an amount, category and date, it appears in your dashboard instantly."
+        },
+        {
+          "question": "Can I track savings alongside spending?",
+          "answer": "Yes, Savings is treated as its own category so contributions count toward your monthly goal just like any other budget line."
+        },
+        {
+          "question": "Does Centsible support multiple budgets per category?",
+          "answer": "Each category gets one monthly budget that resets automatically, giving you a clean, simple limit to watch."
+        },
+        {
+          "question": "What happens when I go over budget?",
+          "answer": "The category card switches to an over-budget state and the monthly summary flags it so you can adjust before the next cycle."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Deja de adivinar dónde fue tu salario",
+      "subtitle": "Abre tu panel y ve el gasto de este mes desglosado por alquiler, compras, gimnasio, comidas, viajes y ahorros, actualizado en el momento en que registres un gasto.",
+      "primaryLabel": "Ir al panel",
+      "secondaryLabel": "Revisar transacciones",
+      "imageQuery": "persona revisando finanzas en teléfono"
+    }
+  },
+  "budgets": {
+    "hero": {
+      "eyebrow": "Presupuestos Mensuales",
+      "title": "Mantén cada categoría bajo control",
+      "subtitle": "Establece límites de gasto para las categorías que más te importan y ve exactamente a dónde va el dinero de este mes.",
+      "imageQuery": "cuaderno de planificación de presupuesto calculadora"
+    },
+    "stats": {
+      "totalBudget": "Total presupuestado",
+      "totalSpent": "Total gastado",
+      "remaining": "Restante este mes",
+      "overLabel": "Excedido"
+    },
+    "grid": {
+      "title": "Tus categorías",
+      "subtitle": "Progreso en vivo contra el límite que has establecido para cada categoría este mes."
+    },
+    "card": {
+      "overBudget": "Excedido",
+      "used": "Usado",
+      "left": "Restante",
+      "overAmount": "excedido"
+    },
+    "form": {
+      "title": "Actualizar un límite",
+      "subtitle": "Ajusta el presupuesto mensual de una categoría y se actualiza al instante en todas partes.",
+      "categoryLabel": "Categoría",
+      "limitLabel": "Límite mensual",
+      "submit": "Guardar límite",
+      "success": "Se actualizó el límite de {category}."
+    },
+    "chart": {
+      "title": "Presupuesto vs. real",
+      "subtitle": "Compara lo que planeaste gastar con lo que realmente gastaste, categoría por categoría.",
+      "budgetLabel": "Presupuesto",
+      "actualLabel": "Real"
+    },
+    "categoryLabels": [
+      "Rent",
+      "Groceries",
+      "Gym",
+      "Dine in",
+      "Savings",
+      "Travel/Fuel"
+    ]
+  },
+  "transactions": {
+    "header": {
+      "eyebrow": "Transacciones",
+      "title": "Cada dólar, contabilizado",
+      "subtitle": "Busca, filtra y gestiona tus gastos diarios en alquiler, comestibles, gimnasio, restaurantes, ahorros y viajes.",
+      "addButton": "Agregar gasto",
+      "imageQuery": "recibos y escritorio de tarjeta de crédito"
+    },
+    "stats": {
+      "totalSpent": "Total gastado",
+      "transactionCount": "Transacciones",
+      "avgTransaction": "Transacción promedio",
+      "topCategory": "Categoría principal"
+    },
+    "filters": {
+      "searchLabel": "Buscar transacciones",
+      "searchPlaceholder": "Buscar por nota o categoría",
+      "categoryAll": "Todas",
+      "dateFromLabel": "Desde",
+      "dateToLabel": "Hasta",
+      "clearButton": "Limpiar filtros"
+    },
+    "table": {
+      "date": "Fecha",
+      "category": "Categoría",
+      "amount": "Monto",
+      "notes": "Notas",
+      "actions": "Acciones",
+      "editLabel": "Editar transacción",
+      "deleteLabel": "Eliminar transacción",
+      "empty": "No hay transacciones que coincidan con tus filtros."
+    },
+    "pagination": {
+      "showing": "Mostrando {from}-{to} de {total}",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "page": "Página {current} de {total}"
+    },
+    "modal": {
+      "addTitle": "Agregar transacción",
+      "editTitle": "Editar transacción",
+      "dateLabel": "Fecha",
+      "categoryLabel": "Categoría",
+      "amountLabel": "Monto (USD)",
+      "notesLabel": "Notas",
+      "notesPlaceholder": "¿Para qué fue?",
+      "validationError": "Ingresa una fecha válida y un monto mayor a cero.",
+      "cancel": "Cancelar",
+      "save": "Guardar transacción"
+    },
+    "deleteModal": {
+      "title": "¿Eliminar esta transacción?",
+      "description": "Esto eliminará permanentemente \"{notes}\" de tu historial de transacciones.",
+      "cancel": "Cancelar",
+      "confirm": "Eliminar"
+    },
+    "categories": [
+      "Rent",
+      "Groceries",
+      "Gym",
+      "Dine In",
+      "Savings",
+      "Travel & Fuel"
+    ]
+  },
+  "dashboardOverview": {
+    "eyebrow": "Panel",
+    "title": "Nos alegra verte de vuelta",
+    "subtitle": "Aquí es donde fue tu dinero este mes, todo en un solo lugar.",
+    "period": "Este mes",
+    "addExpense": "Agregar gasto",
+    "imageQuery": "gráficos de panel de control financiero",
+    "chart": {
+      "title": "Tendencia de gastos semanales",
+      "subtitle": "Gasto diario contra tu objetivo de $95 por día.",
+      "spendingLabel": "Gastos",
+      "budgetLabel": "Objetivo diario",
+      "weekdays": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ]
+    },
+    "categories": {
+      "title": "Gastos por categoría",
+      "subtitle": "Cómo se está utilizando el presupuesto de este mes en tus prioridades.",
+      "items": [
+        {
+          "key": "rent",
+          "name": "Rent",
+          "spent": 1450,
+          "budget": 1450
+        },
+        {
+          "key": "groceries",
+          "name": "Groceries",
+          "spent": 342,
+          "budget": 400
+        },
+        {
+          "key": "gym",
+          "name": "Gym",
+          "spent": 45,
+          "budget": 50
+        },
+        {
+          "key": "dineIn",
+          "name": "Dine in",
+          "spent": 210,
+          "budget": 150
+        },
+        {
+          "key": "savings",
+          "name": "Savings",
+          "spent": 500,
+          "budget": 600
+        },
+        {
+          "key": "travel",
+          "name": "Travel / Fuel",
+          "spent": 128,
+          "budget": 200
+        }
+      ]
+    },
+    "transactions": {
+      "title": "Transacciones recientes",
+      "subtitle": "Tu actividad más reciente en todas las categorías.",
+      "viewAll": "Ver todo",
+      "headers": {
+        "merchant": "Comerciante",
+        "category": "Categoría",
+        "date": "Fecha",
+        "amount": "Monto",
+        "status": "Estado"
+      },
+      "items": [
+        {
+          "merchant": "Greenleaf Apartments",
+          "categoryKey": "rent",
+          "categoryName": "Rent",
+          "date": "Apr 1",
+          "amount": -1450.0,
+          "statusKey": "completed",
+          "status": "Completed"
+        },
+        {
+          "merchant": "Trader Joe's",
+          "categoryKey": "groceries",
+          "categoryName": "Groceries",
+          "date": "Apr 3",
+          "amount": -86.4,
+          "statusKey": "completed",
+          "status": "Completed"
+        },
+        {
+          "merchant": "FitZone Gym",
+          "categoryKey": "gym",
+          "categoryName": "Gym",
+          "date": "Apr 4",
+          "amount": -45.0,
+          "statusKey": "completed",
+          "status": "Completed"
+        },
+        {
+          "merchant": "Auto-transfer to Savings",
+          "categoryKey": "savings",
+          "categoryName": "Savings",
+          "date": "Apr 5",
+          "amount": -500.0,
+          "statusKey": "completed",
+          "status": "Completed"
+        },
+        {
+          "merchant": "Olive & Thyme Bistro",
+          "categoryKey": "dineIn",
+          "categoryName": "Dine in",
+          "date": "Apr 6",
+          "amount": -72.5,
+          "statusKey": "completed",
+          "status": "Completed"
+        },
+        {
+          "merchant": "Shell Fuel Station",
+          "categoryKey": "travel",
+          "categoryName": "Travel / Fuel",
+          "date": "Apr 7",
+          "amount": -41.2,
+          "statusKey": "pending",
+          "status": "Pending"
+        }
+      ]
+    },
+    "insights": {
+      "title": "Alertas de presupuesto",
+      "subtitle": "Algunas cosas que vale la pena revisar este mes.",
+      "items": [
+        {
+          "title": "Dine in is over budget",
+          "description": "You've spent $210 of your $150 dine-in budget this month, $60 over target."
+        },
+        {
+          "title": "Savings goal almost there",
+          "description": "You're just $100 away from this month's $600 savings goal."
+        },
+        {
+          "title": "Rent due soon",
+          "description": "Your next rent payment of $1,450 is due in 3 days."
+        }
+      ]
+    },
+    "quickActions": {
+      "title": "Acciones rápidas",
+      "items": [
+        {
+          "label": "Add a transaction",
+          "description": "Log a new expense or income entry.",
+          "href": "/transactions"
+        },
+        {
+          "label": "Review budgets",
+          "description": "Check category limits and adjust them.",
+          "href": "/budgets"
+        },
+        {
+          "label": "Update preferences",
+          "description": "Manage currency, alerts and account details.",
+          "href": "/settings"
+        }
+      ]
+    },
+    "stats": [
+      {
+        "value": "$4,268.50",
+        "label": "Total balance"
+      },
+      {
+        "value": "$5,200.00",
+        "label": "Monthly income"
+      },
+      {
+        "value": "$2,675.00",
+        "label": "Monthly expenses"
+      },
+      {
+        "value": "28%",
+        "label": "Savings rate"
+      }
+    ]
+  }
+}
