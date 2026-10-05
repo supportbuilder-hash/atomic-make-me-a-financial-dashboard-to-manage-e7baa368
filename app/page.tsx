@@ -66,10 +66,7 @@ export default function HomePage() {
                 {t("home.hero.subtitle")}
               </p>
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-                <Link href="/dashboard-overview" className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition hover:-translate-y-0.5 hover:shadow-lg motion-reduce:transition-none">
-                  {t("home.hero.primaryCta")}
-                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                </Link>
+                <Link href="/dashboard-overview" className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition hover:-translate-y-0.5 hover:shadow-lg motion-reduce:transition-none">Open dashboard...</Link>
                 <Link href="/transactions" className="inline-flex items-center justify-center gap-2 rounded-lg border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground transition hover:-translate-y-0.5 hover:bg-accent motion-reduce:transition-none">
                   {t("home.hero.secondaryCta")}
                 </Link>
