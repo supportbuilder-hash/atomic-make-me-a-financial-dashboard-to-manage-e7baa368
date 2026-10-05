@@ -70,7 +70,12 @@ export default function HomePage() {
                   href="/dashboard-overview"
                   className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition hover:-translate-y-0.5 hover:shadow-lg motion-reduce:transition-none"
                   style={{
-                    borderRadius: "6px"
+                    borderRadius: "16px",
+                    color: "#22c55e",
+                    backgroundColor: "#000000",
+                    fontSize: "28px",
+                    padding: "16px",
+                    margin: "12px"
                   }}>Open dashboard...</Link>
                 <Link href="/transactions" className="inline-flex items-center justify-center gap-2 rounded-lg border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground transition hover:-translate-y-0.5 hover:bg-accent motion-reduce:transition-none">
                   {t("home.hero.secondaryCta")}
