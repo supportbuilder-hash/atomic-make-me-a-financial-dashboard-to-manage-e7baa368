@@ -61,11 +61,7 @@ export default function HomePage() {
                 <Sparkles className="h-4 w-4 text-primary" aria-hidden="true" />
                 {t("home.hero.eyebrow")}
               </span>
-              <h1 className="mt-6 text-balance text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-6xl">
-                {t("home.hero.titleLead")}{" "}
-                <span className="text-gradient">{t("home.hero.titleHighlight")}</span>{" "}
-                {t("home.hero.titleTail")}
-              </h1>
+              <h1 className="mt-6 text-balance text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-6xl">See exactly where your paycheck goes every month...</h1>
               <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
                 {t("home.hero.subtitle")}
               </p>
